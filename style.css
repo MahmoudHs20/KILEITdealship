@@ -1,0 +1,281 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: #0a0b0c;
+    display: flex;
+    
+}
+header .logo{
+    flex: 6;
+}
+header .contact{
+    flex: 4;
+    color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+header .contact .location img{
+    width: 18%;
+    position: relative;
+    top: 30px;
+}
+header .contact .phone img{
+    width: 18%;
+    position: relative;
+    top: 30px;
+}
+header .contact .location div{
+    position: relative;
+    top: -17px;
+    left: 54px;
+ }
+ header .contact .phone div{
+    position: relative;
+    top: -22px;
+    left: 85px;
+ }
+header .logo img{
+    position: relative;
+    top: -35px;
+}
+.location{
+   width: max-content;
+}
+.phone{
+    width: max-content;
+position: relative;
+top: -101px;
+left: 320px;
+}
+
+/* NAVBAR **/
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #eef2f5;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+nav .container{
+    height: 60px;
+    padding-left: 150px;
+
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    padding: 12px 34px;
+  
+   
+}
+ul li a{
+    text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+       color:#0a0b0ccc;
+       font-size: 21px !important;
+ 
+}
+a:hover{
+    color: black;
+}
+ul li:hover{
+    background-color: #f8e98a ;
+}
+.main{
+    width: 100%;
+    height: 565px;
+}
+.main img{
+    width: 100%;
+    position: relative;
+    top: -556px;
+    z-index: -2;
+}
+.welcome{
+    padding: 20px 20px 0 20px;
+background-color: #0a0b0c;
+color: whitesmoke;
+position: relative !important;
+top: 35px !important;
+}
+.welcome-text{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.welcome-text span{
+    color: #ead420;
+    font-family: 'Eagle Lake', cursive;
+
+}
+.mini-nav .bt{
+    display: inline-block;
+    padding: 10px;
+    background-color: #313131;
+    color: #d7caca;
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: 'Raleway', sans-serif;
+}
+.bt a{
+    text-decoration: none !important;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.actives{
+    background-color: white !important;
+    color: #6d6630 !important;
+}
+.gallary{
+    overflow-x: hidden;
+    padding: 30px;
+    white-space: nowrap;
+
+}
+.gallary h1{
+  font-size: 75px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin:0 25px 0 25px;
+  padding:0 40px 0 ;
+}
+#swip{
+    transition: all 1s ease-in-out;
+}
+.gallary h2{
+    width: 100%;
+    border-bottom: 4px solid #ead420;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.popular span{
+    background: gray;
+    margin: 3px;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    float: right;
+    border-radius: 10%;
+}
+.car-card{
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.car-card h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 700;
+}
+.car-card img{
+ width: 100%;
+ border-radius: 3%;
+ height: 260px;
+}
+.vdt{
+    border: 1px solid gray;
+    width: 120px;
+    padding: 5px;
+    margin-left: 30%;
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 9px;
+    border-radius: 10%;
+}
+.btn{
+    margin-left: 36%;
+}
+.modal-footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.modal .modal-content{
+    padding: 0 !important;
+}
+.pop-info{
+    position: relative;
+    top: 70px;
+}
+ #engine {
+    background: #fafafa;
+    padding: 20px;
+    border-top: 1px solid #dee2e6;
+  }
+  #price{
+      position: absolute;
+      bottom: 67px;
+      left: 43%;
+      font-size: 25px;
+      font-weight: 500;
+  }
+  .why-us{
+      width: 100%;
+      background-color: #0a0b0c;
+  }
+  .why-us{
+      color: azure;
+  }
+  .why-us svg{
+    font-size: 52px;
+    color: #ead420;
+    position: relative;
+    top: 17px;
+    margin-right: 12px;
+  }
+  .why-us h6{
+      display: inline-table;
+      
+width: 135px;
+word-wrap: break-word;
+  }
+  .more svg{
+    font-size: 30px;
+    position: relative;
+    top: 0px;
+    left: 14px;
+  }
+  .more{
+    border: 1px solid #ead420;
+    width: 221px;
+    align-self: center;
+    position: relative;
+    left: 44.5%;
+    top: 41px;
+    cursor: pointer;
+  }
+  footer{
+    padding-top: 20px;
+    width: 100%;
+    background-color: #0a0b0c;
+    height: 200px;
+    color: azure;
+    text-align: center;
+    border-radius: 50%;
+    translate: 0 130px;
+  }
